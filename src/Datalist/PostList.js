@@ -4,7 +4,7 @@ import Players from '../data/players.json';
 const PostList = props => {
   return (
     <div>
-      <p>Masters Field</p>
+      <p> The Masters Field</p>
       {Players.map((player, index) => {
         return (
           <div key={player.id}>
